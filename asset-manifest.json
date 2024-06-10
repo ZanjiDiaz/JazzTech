@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactJS-Tailwind/static/css/main.7f325d03.css",
-    "main.js": "/ReactJS-Tailwind/static/js/main.228612ef.js",
-    "static/js/453.3c50c900.chunk.js": "/ReactJS-Tailwind/static/js/453.3c50c900.chunk.js",
+    "main.js": "/ReactJS-Tailwind/static/js/main.506be869.js",
+    "static/js/453.3c760ba2.chunk.js": "/ReactJS-Tailwind/static/js/453.3c760ba2.chunk.js",
     "static/media/appshowcase.jpg": "/ReactJS-Tailwind/static/media/appshowcase.f3829b1c3c949bcc390e.jpg",
     "static/media/7.jpg": "/ReactJS-Tailwind/static/media/7.9876e18c045f12ab6c63.jpg",
     "static/media/4.jpg": "/ReactJS-Tailwind/static/media/4.e47894280f927fd78a38.jpg",
@@ -35,11 +35,11 @@
     "static/media/slick.woff": "/ReactJS-Tailwind/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ReactJS-Tailwind/index.html",
     "main.7f325d03.css.map": "/ReactJS-Tailwind/static/css/main.7f325d03.css.map",
-    "main.228612ef.js.map": "/ReactJS-Tailwind/static/js/main.228612ef.js.map",
-    "453.3c50c900.chunk.js.map": "/ReactJS-Tailwind/static/js/453.3c50c900.chunk.js.map"
+    "main.506be869.js.map": "/ReactJS-Tailwind/static/js/main.506be869.js.map",
+    "453.3c760ba2.chunk.js.map": "/ReactJS-Tailwind/static/js/453.3c760ba2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f325d03.css",
-    "static/js/main.228612ef.js"
+    "static/js/main.506be869.js"
   ]
 }
