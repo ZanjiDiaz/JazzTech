@@ -14,7 +14,7 @@ const content = () => {
               Our story
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg font-normal text-gray-700 lg:text-xl lg:leading-8 dark:text-darkLight">
-              Why would you choose JazzTech?
+              Why would you choose our Company?
             </p>
           </div>
           <ul className="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-full lg:grid-cols-4">
@@ -43,11 +43,7 @@ const content = () => {
                   What, When and Where
                 </h3>
                 <h4 className="mt-2 text-left text-gray-700 text-sm dark:text-darkLight">
-                  Jazztech Software Development Services is a software
-                  development company founded in the Philippines in October
-                  2020. Our team consists of talented and experienced software
-                  developers from the UK, Germany, Australia, and the
-                  Philippines.
+                John joined WebTech Solutions as a Front-End Developer in January 2018, driven by his passion for crafting intuitive user interfaces. His decision stemmed from the desire to contribute to innovative web projects and enhance user experiences through cutting-edge design techniques.
                 </h4>
               </div>
             </li>
@@ -77,11 +73,7 @@ const content = () => {
                   The problem
                 </h3>
                 <h4 className="mt-2 text-left text-gray-700 text-sm dark:text-darkLight">
-                  Understanding the struggle of finding reliable software
-                  developers in a saturated AI market, we empathize with
-                  customers' frustrations. We're committed to delivering
-                  impactful results at fair prices, prioritizing trust and
-                  quality.
+                Encountering a common challenge upon joining, John identified the lack of responsiveness in the company's websites across different devices. To address this, he conducted thorough research and implemented responsive design principles using HTML, CSS, and Bootstrap, aiming to elevate user experiences and bolster client satisfaction.
                 </h4>
               </div>
             </li>
@@ -108,12 +100,7 @@ const content = () => {
                   The solution
                 </h3>
                 <h4 className="mt-2 text-left text-gray-700 text-sm dark:text-darkLight">
-                  To tackle this, we've gathered a team of skilled individuals
-                  eager for work. We prioritize hiring recent university
-                  graduates, ensuring we're up-to-date with tech trends.
-                  Together, we aim to empower clients and the community, shaping
-                  a better future. Join us, and let's realize your ideas
-                  together.
+                Implementing a strategic solution, John revamped the company's websites by leveraging his expertise in HTML, CSS, and Bootstrap. His focus on responsive design principles ensured seamless adaptation to varying screen sizes and device types, optimizing performance and enhancing usability.
                 </h4>
               </div>
             </li>
@@ -137,7 +124,7 @@ const content = () => {
                   Present
                 </h3>
                 <h4 className="mt-2 text-left text-gray-700 text-sm dark:text-darkLight">
-                  We currently have # clients all across the globe!
+                Continuously honing his skills, John remains dedicated to staying updated on the latest trends and technologies in front-end development. His unwavering commitment and expertise play a pivotal role in WebTech Solutions' success, consistently exceeding client expectations and driving user engagement with exceptional web designs.
                 </h4>
               </div>
             </li>
@@ -169,10 +156,10 @@ const content = () => {
                 ></img>
                 <div>
                   <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-lightBG">
-                    Jazz
+                    Jane Doe
                   </h3>
                   <p className="text-sm font-semibold leading-6 text-primary dark:text-darkLight">
-                    CEO / Software Developer
+                    CEO
                   </p>
                 </div>
               </div>
@@ -189,7 +176,7 @@ const content = () => {
                     Jizan Villafuerte
                   </h3>
                   <p className="text-sm font-semibold leading-6 text-primary dark:text-darkLight">
-                    Assistant Software Developer
+                    Front-End Developer
                   </p>
                 </div>
               </div>

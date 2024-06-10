@@ -10,8 +10,7 @@ const footer = () => {
             <img src={logo} height={100} width={100} />
 
             <p className="text-left leading-relaxed text-gray-600 mt-7 dark:text-darkLight">
-              We are an international software development company merging the
-              latest technology with creativity to optimize business processes.
+              Ullamco labore labore culpa cupidatat consectetur cillum exercitation excepteur pariatur nulla laboris dolor.
             </p>
 
             <ul className="flex items-center space-x-3 mt-9">
@@ -34,7 +33,7 @@ const footer = () => {
 
               <li>
                 <a
-                  href="https://www.facebook.com/jazztechsolutions"
+                  href="#"
                   title=""
                   className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-primary focus:bg-primary"
                 >
@@ -51,7 +50,7 @@ const footer = () => {
 
               <li>
                 <a
-                  href="https://www.instagram.com/jazztechsolutions/"
+                  href="#"
                   title=""
                   className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-primary focus:bg-primary"
                 >
@@ -70,7 +69,7 @@ const footer = () => {
 
               <li>
                 <a
-                  href="https://github.com/jazzcoding"
+                  href="#"
                   title=""
                   className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-primary focus:bg-primary"
                 >

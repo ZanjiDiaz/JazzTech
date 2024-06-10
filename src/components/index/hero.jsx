@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 dark:text-lightBG dark:ring-lightBG/5 dark:hover:ring-lightBG/20">
-              Avail our services for as low as $50/month. &nbsp;
+              All images you see here is only for showcase purposes. &nbsp;
               <a href="#" className="font-semibold text-primary">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Hire us <span aria-hidden="true">&rarr;</span>
@@ -33,8 +33,7 @@ const Hero = () => {
               Ready, Set, Code!
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-darkLight">
-              We are an international software development company merging the
-              latest technology with creativity to optimize business processes.
+              Eu proident laborum pariatur consectetur veniam aliquip. Consectetur nulla sint et est aliquip mollit non Lorem.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a

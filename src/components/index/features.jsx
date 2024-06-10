@@ -5,7 +5,7 @@ import {
   DevicePhoneMobileIcon,
   BoltIcon,
 } from "@heroicons/react/20/solid";
-import promotion from "../../assets/image/promotional/barangayMo_promo.png";
+import promotion from "../../assets/image/promotional/appshowcase.jpg";
 const feat = [
   {
     name: "Intuitive User Interface (UI).",
