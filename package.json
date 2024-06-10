@@ -1,7 +1,7 @@
 {
-  "name": "jazztech",
+  "name": "ReactJS-Tailwind",
   "version": "0.1.0",
-  "homepage": "https://ZanjiDiaz.github.io/JazzTech",
+  "homepage": "https://zanjidiaz.github.io/ReactJS-Tailwind/",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.18",
