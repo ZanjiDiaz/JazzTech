@@ -202,7 +202,7 @@ const footer = () => {
         <hr className="mt-16 mb-10 border-gray-200 dark:ring-1 dark:ring-lightBG/5" />
 
         <p className="text-sm text-center text-gray-600 dark:text-darkLight">
-          © Copyright 2024, All Rights Reserved by JazzTech
+          © Copyright 2024, All Rights Reserved by Jizan
         </p>
       </div>
     </section>
