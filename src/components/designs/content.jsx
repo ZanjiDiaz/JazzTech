@@ -7,7 +7,9 @@ import pic4 from "../../assets/image/promotional/4.jpg";
 import pic5 from "../../assets/image/promotional/5.jpg";
 import pic6 from "../../assets/image/promotional/6.jpg";
 import pic7 from "../../assets/image/promotional/7.jpg";
-
+import proto1 from "../../assets/image/Screenshots/proto1.jpg"
+import proto2 from "../../assets/image/Screenshots/proto2.jpg"
+import proto3 from "../../assets/image/Screenshots/proto3.jpg"
 const Content = () => {
   const ref = useRef(null);
   const handleClick = () => {
@@ -15,19 +17,25 @@ const Content = () => {
   };
   const design = [
     {
-      app: "Caplo",
-      imgUrl: "",
+      app: "Mobile Screen Set",
+      imgUrl: proto1,
       description: "",
+      attLink: "https://www.freepik.com/free-vector/mobile-screens-set-with-user-interface-fitness-application-with-username-password-fields-training-results-isolated-flat_14657662.htm#fromView=search&page=1&position=1&uuid=f1dcf749-be4e-404f-8834-c2a9ad272e28",
+      attName:"macrovector"
     },
     {
-      app: "Croplify",
-      imgUrl: "",
+      app: "Travel Booking App",
+      imgUrl: proto2,
       description: "",
+      attLink: "https://www.freepik.com/free-vector/travel-booking-app-screens-collection_9440506.htm#fromView=search&page=1&position=4&uuid=f1dcf749-be4e-404f-8834-c2a9ad272e28",
+      attName: "FreePik"
     },
     {
-      app: "Warnya",
-      imgUrl: "",
+      app: "Go Cashless",
+      imgUrl: proto3,
       description: "",
+      attLink: "https://www.freepik.com/free-psd/go-cashless-website-template_18773710.htm#fromView=search&page=1&position=22&uuid=f1dcf749-be4e-404f-8834-c2a9ad272e28",
+      attName: "FreePik"
     },
   ];
   return (
@@ -138,9 +146,7 @@ const Content = () => {
               Lorem Ipsul dolor
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600 text-left md:text-center dark:text-darkLight">
-              Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-              Suspendisse eget egestas a elementum pulvinar et feugiat blandit
-              at. In mi viverra elit nunc.
+              All images you see here is for showcase purposes only. I do not own the licence of the photos.
             </p>
           </div>
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 lg:grid-cols-2 xl:gap-x-8">
@@ -164,8 +170,13 @@ const Content = () => {
                   <div className="absolute left-1/2 top-0 -translate-x-1/2 rounded-b-xl w-[56px] h-[5px] md:w-[96px] md:h-[8px] bg-gray-800"></div>
                 </div>
                 <div className="flex items-center justify-center w-ful">
-                  <h1 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-4xl dark:text-lightBG">
+                 <h1 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-4xl dark:text-lightBG">
                     {design.app}
+                  </h1>
+                </div>
+                <div className="flex items-center justify-center w-ful">
+                  <h1 className=" text-md font-medium tracking-tight text-gray-500 sm:text-md lg:text-xl dark:text-lightBG">
+                    by {design.attName}
                   </h1>
                 </div>
               </div>

@@ -7,8 +7,9 @@ import pic5 from "../../assets/image/promotional/5.jpg";
 import pic6 from "../../assets/image/promotional/6.jpg";
 import pic7 from "../../assets/image/promotional/7.jpg";
 
-import caploScreen from "../../assets/image/Screenshots/caplo.png";
-import croplifyScreen from "../../assets/image/Screenshots/croplify.png";
+import yummly from "../../assets/image/Screenshots/yummly.png";
+import starbucks from "../../assets/image/Screenshots/starbucks.png";
+import uber from "../../assets/image/Screenshots/uber.png";
 import { useRef } from "react";
 import { LineWave } from "react-loader-spinner";
 const Content = () => {
@@ -18,22 +19,22 @@ const Content = () => {
   };
   const mobileScreen = [
     {
-      app: "Caplo",
-      imgUrl: caploScreen,
+      app: "Yummly",
+      imgUrl: yummly,
       description: "",
       linkGoogle: "",
       linkApple: "",
     },
     {
-      app: "Croplify",
-      imgUrl: croplifyScreen,
+      app: "Starbucks",
+      imgUrl: starbucks,
       description: "",
       linkGoogle: "",
       linkApple: "",
     },
     {
-      app: "Warnya",
-      imgUrl: "",
+      app: "Uber",
+      imgUrl: uber,
       description: "",
       linkGoogle: "",
       linkApple: "",
@@ -146,9 +147,7 @@ const Content = () => {
               Lorem Ipsul dolor
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600 text-left md:text-center dark:text-darkLight">
-              Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-              Suspendisse eget egestas a elementum pulvinar et feugiat blandit
-              at. In mi viverra elit nunc.
+            All images you see here is for showcase purposes only. I do not own the licence of the photos.
             </p>
           </div>
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">

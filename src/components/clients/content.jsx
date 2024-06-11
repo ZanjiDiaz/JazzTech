@@ -3,7 +3,7 @@ import React from "react";
 const Content = () => {
   const features = [
     {
-      name: "Caplo",
+      name: "Starbucks",
       image1: "",
       image2: "",
       image3: "",
@@ -33,7 +33,37 @@ const Content = () => {
       ],
     },
     {
-      name: "Croplify",
+      name: "Uber",
+      image1: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in imperdiet mauris, id sollicitudin erat. ",
+
+      capab: [
+        {
+          capabID: 1,
+          capabName: "Responsive",
+          capabDesc: "Can use across all devices",
+          capabIcon: "1",
+        },
+        {
+          capabID: 1,
+          capabName: "UI/UX",
+          capabDesc: "Fantastic UI",
+          capabIcon: "1",
+        },
+        {
+          capabID: 1,
+          capabName: "Security",
+          capabDesc: "Enhanced Security",
+          capabIcon: "1",
+        },
+      ],
+    },
+    {
+      name: "Yummly",
       image1: "",
       image2: "",
       image3: "",

@@ -6,7 +6,9 @@ import pic4 from "../../assets/image/promotional/4.jpg";
 import pic5 from "../../assets/image/promotional/5.jpg";
 import pic6 from "../../assets/image/promotional/6.jpg";
 import pic7 from "../../assets/image/promotional/7.jpg";
-
+import starbucksweb from "../../assets/image/Screenshots/Starbucksweb.png"
+import uberweb from "../../assets/image/Screenshots/Uberweb.png"
+import yummlyweb from "../../assets/image/Screenshots/yummlyweb.png"
 import { useRef } from "react";
 const Content = () => {
   const ref = useRef(null);
@@ -15,19 +17,22 @@ const Content = () => {
   };
   const websiteScreen = [
     {
-      app: "Caplo",
-      imgUrl: "",
+      app: "Yummly",
+      imgUrl: yummlyweb,
       description: "",
+      link: "https://www.yummly.com/",
     },
     {
-      app: "Croplify",
-      imgUrl: "",
+      app: "Starbucks",
+      imgUrl: starbucksweb,
       description: "",
+      link: "https://app.starbucks.com/",
     },
     {
-      app: "Warnya",
-      imgUrl: "",
+      app: "Uber",
+      imgUrl: uberweb,
       description: "",
+      link: "https://m.uber.com/",
     },
   ];
   return (
@@ -138,9 +143,7 @@ const Content = () => {
               Lorem Ipsul dolor
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600 text-left md:text-center dark:text-darkLight">
-              Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-              Suspendisse eget egestas a elementum pulvinar et feugiat blandit
-              at. In mi viverra elit nunc.
+            All images you see here is for showcase purposes only. I do not own the licence of the photos.
             </p>
           </div>
           <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
@@ -150,12 +153,12 @@ const Content = () => {
                   <div className="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white dark:bg-gray-800 ">
                     <img
                       src={websiteScreen.imgUrl}
-                      className="dark:hidden h-[156px] md:h-[278px] w-full rounded-xl"
+                      className="dark:hidden h-[156px] md:h-[278px] w-full rounded-xl object-contain"
                       alt={websiteScreen.app}
                     ></img>
                     <img
                       src={websiteScreen.imgUrl}
-                      className="hidden dark:block h-[156px] md:h-[278px] w-full rounded-lg"
+                      className="hidden dark:block h-[156px] md:h-[278px] w-full rounded-lg object-contain"
                       alt={websiteScreen.app}
                     ></img>
                   </div>
@@ -164,9 +167,9 @@ const Content = () => {
                   <div className="absolute left-1/2 top-0 -translate-x-1/2 rounded-b-xl w-[56px] h-[5px] md:w-[96px] md:h-[8px] bg-gray-800"></div>
                 </div>
                 <div className="flex items-center justify-center w-ful">
-                  <h1 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-4xl dark:text-lightBG">
+                  <a href={websiteScreen.link} target="_blank" className=" hover:underline"><h1 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-4xl dark:text-lightBG">
                     {websiteScreen.app}
-                  </h1>
+                  </h1></a>
                 </div>
               </div>
             ))}
